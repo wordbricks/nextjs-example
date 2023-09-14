@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 예시
 
-## Getting Started
-
-First, run the development server:
+## 1) 프로젝트 실행
 
 ```bash
 npm run dev
@@ -12,27 +10,45 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 링크 열기 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 2) 프로젝트 환경
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. next.js 14, react 18
+2. typescript
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 3) 프로젝트 목표
+1. textarea 두 개 배치. button 배치
 
-## Learn More
+2. 왼쪽 textarea에서 사용자 입력을 받기
 
-To learn more about Next.js, take a look at the following resources:
+   - [추가] 사용자 입력 validation (길이 제한, 포맷 제한)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. 사용자가 제출 button을 누르면 사용자 입력을 거꾸로 뒤집어서 (예. cat -> tac) 오른쪽 textarea로 이동
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - [추가] 서버 `/api` 를 활용
 
-## Deploy on Vercel
+4. 사용자 입력 기록 보여주기
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**프로젝트 목표가 아닌 것**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. css를 활용해서 화면 배치, UI를 개선하기 -> 정확한 동작에만 초점을 맞추기
+
+2. 코드의 퀄리티 (코드 패턴, 모듈화, 커밋 로그 등) -> 빠른 시간 안에 아이디어를 구현하기
+
+3. 모든 코드를 직접 짜기 -> 구글, 스택오버플로우, copilot, 복사&붙여넣기 사용 가능
+
+
+## 4) 프로젝트 예상 결과물 
+
+**Before**
+
+![before](./before.png)
+
+**After**
+
+## 5). (높은 확률로) 수정하게 될 파일
+
+1. `pages/index.tsx`
+2. `api/hello.ts`
