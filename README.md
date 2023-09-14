@@ -48,7 +48,9 @@ pnpm dev
 
 **After**
 
+![after](./after.png)
+
 ## 5). (높은 확률로) 수정하게 될 파일
 
 1. `pages/index.tsx`
-2. `api/hello.ts`
+2. [추가] `api/hello.ts`
