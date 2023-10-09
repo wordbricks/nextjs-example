@@ -58,7 +58,7 @@ Open the link in your browser [http://localhost:3000](http://localhost:3000)
 
 ## 4) Expected Outcomes
 
-[Sample](./Sample.png)
+![Sample](./Sample.png)
 
 
 
