@@ -58,13 +58,9 @@ Open the link in your browser [http://localhost:3000](http://localhost:3000)
 
 ## 4) Expected Outcomes
 
-**Before**
+![sample](./sample.png)
 
-![before](./before.png)
 
-**After**
-
-![after](./after.png)
 
 ## 5). (Tips)  You'll probably be editing the following pages.
 
