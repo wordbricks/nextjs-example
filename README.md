@@ -1,6 +1,6 @@
 # Wordbricks Live coding test
 
-별로의 공지가 없으면 web/ 부분을 진행 합니다.
+별도의 공지가 없으면 web/ 부분을 진행 합니다.
 
 ## Backend
 

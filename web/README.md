@@ -17,21 +17,22 @@ Open the link in your browser [http://localhost:3000](http://localhost:3000)
 1. next.js 14, react 18
 2. typescript
 
-
 ## 3) Objective
-1. place two 'textarea', and one 'button' 
 
-2. Receive user input from the left textarea
+1. Place two 'textarea', and one 'button'
 
-   - [Advanced] Validate user input (length, Format)
+2. Receive the user input from the left textarea
 
-3. Return reversed text (eg. cat -> tac) in the right textarea when user clicks the button
+   - [Advanced] Validate the user input (length, format) based on your own criteria
 
-   - [Advanced] User server `/api` 
+3. Return the reversed text (e.g., cat -> tac) in the right textarea when the user clicks the button
 
-6. Display input histories 
+   - [Advanced] Use the server `/api`
 
-7. Additional features
+4. Display input histories
+
+5. Additional features
+
    1. Like button for the input text
 
       - [Advanced] Maximum one like per user
@@ -40,29 +41,25 @@ Open the link in your browser [http://localhost:3000](http://localhost:3000)
 
    3. Undo 'delete' action
 
-      - [Advanced] redo 'delete' action
+      - [Advanced] Redo 'delete' action
 
-      - [Advanced] Enable Shortcut key (ctrl + z or cmd + z)
+      - [Advanced] Shortcut key (ctrl + z or cmd + z)
 
-   4. Show word count below the test area 
-
+   4. Show word count below the textarea
 
 **We do not evaluate the followings**
 
-1. Improve UI using css -> We only care wether the feature works or not
+1. Improve UI using css -> We only care whether the feature works or not
 
-2. Quality of code (Code pattern, modulization, commit logs... ) -> We want you to prioritize speed during this interview and not worry about anything else.
+2. Quality of code (Code pattern, modularization, commit logs... ) -> We want you to prioritize speed during this interview and not worry about anything else.
 
-3. Writing all the code from scratch  -> You can also utilize Google, Stack Overflow, Copilot, and copy-paste as needed.
-
+3. Writing all the code from scratch -> You can also utilize Google, Stack Overflow, Copilot, and copy-paste as needed.
 
 ## 4) Expected Outcomes
 
 ![Sample](./Sample.png)
 
-
-
-## 5). (Tips)  You'll probably be editing the following pages.
+## 5). (Tips) You'll probably be editing the following pages
 
 1. `pages/index.tsx`
-2. [Advnaced] `api/hello.ts`
+2. [Advanced] `api/hello.ts`
