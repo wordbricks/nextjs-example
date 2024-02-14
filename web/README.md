@@ -56,8 +56,8 @@ Open the link in your browser [http://localhost:3000](http://localhost:3000)
 3. Writing all the code from scratch -> You can also utilize Google, Stack Overflow, Copilot, and copy-paste as needed.
 
 ## 4) Expected Outcomes
+<img width="745" alt="image" src="https://github.com/wordbricks/nextjs-example/assets/8529835/d30ac4e4-0c59-4a2c-a660-1620384484bb">
 
-![Sample](./Sample.png)
 
 ## 5). (Tips) You'll probably be editing the following pages
 
